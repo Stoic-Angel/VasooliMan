@@ -1,0 +1,7 @@
+.env.local
+outbound_trunk.json
+*.pyc
+__pycache__/
+test/
+.DS_Store
+KMS

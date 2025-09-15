@@ -1,0 +1,11 @@
+{
+    "trunk": {
+        "name": "sip-trunk-name",
+        "address": "xyz.pstn.twilio.com",
+        "numbers": [
+            "+1xxxxxxxxxxxx"
+        ],
+        "auth_username": "test",
+        "auth_password": "******" 
+    }
+}

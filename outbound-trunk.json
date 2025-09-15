@@ -1,0 +1,11 @@
+{
+    "trunk": {
+        "name": "FirstSIP-T",
+        "address": "usa3dec992771f040093bcd897e8919b7d.pstn.twilio.com",
+        "numbers": [
+            "+19062844959"
+        ],
+        "auth_username": "stoic",
+        "auth_password": "Yush981_stoic" 
+    }
+}
