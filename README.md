@@ -39,7 +39,8 @@ Notes:
 - It reads env from `.env.local`.
 
 ### Run the mini pipeline (simulation + optimization)
-Generates synthetic debtor personalities, simulates chats against the current agent script, and asks OpenAI to produce improvement suggestions.
+Generates synthetic debtor personalities, simulates chats against the current agent script and checks for scores against predefined metrics (2 for now).
+Returns the updated agent
 
 ```bash
 uv run run_mini_pipeline.py
@@ -51,6 +52,12 @@ uv run run_mini_pipeline.py
 - `run_mini_pipeline.py`: Orchestrates personality generation, chat simulation, and script optimization
 - `personality_generator.py`, `chat_simulator.py`, `script_optimizer.py`: Pipeline components
 - `requirements.txt`: Dependencies
+
+  
+### Improvements
+- Create a CI/CD to update the base agent script automatically
+- More efficient packing of queries to reduce token usage
+
 
 ### Troubleshooting
 - Ensure all API keys and `SIP_OUTBOUND_TRUNK_ID` are set in `.env.local`.
