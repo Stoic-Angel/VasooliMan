@@ -1,4 +1,4 @@
-## PondRipples
+## VasooliMan
 
 Voice credit card debt-collection agent using LiveKit Agents (STT/TTS/LLM) with a small simulation/optimization pipeline powered by OpenAI.
 
