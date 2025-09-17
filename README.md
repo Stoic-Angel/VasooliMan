@@ -1,5 +1,7 @@
 ## VasooliMan - **voice credit card debt-collection agent using LiveKit Agents with an optimization pipeline powered by OpenAI.**
 
+### Demo:
+https://www.loom.com/share/022292c6c2f84e4f8d602e5a7adf44ab?sid=74d57f2a-695a-4b05-b1d0-9b289a2eb4ff
 ### Features
 - Live, phone-based agent that dials via SIP trunk and talks using STT (Deepgram), TTS (Cartesia), and LLM (OpenAI)
 - Simple mini pipeline to simulate conversations and suggest script improvements
